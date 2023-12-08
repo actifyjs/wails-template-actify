@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js,jsx}", "./node_modules/actify/lib/*.{js,mjs}"],
+  content: [
+    "./src/**/*.{html,js,jsx}",
+    "./components/**/*.{html,js,jsx}",
+    "./node_modules/actify/dist/**/*.{js,jsx}",
+  ],
   theme: {
     extend: {
       colors: {
